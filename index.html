@@ -38,6 +38,16 @@ h1{font-size:clamp(44px,8vw,76px);line-height:1.05;letter-spacing:-2px;margin:16
 section{padding:64px 0;border-top:1px solid #26395188}.title{font-size:28px;margin:0}.sub{color:var(--muted);margin:5px 0 24px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:22px}.card h3{margin:6px 0}.card p,li{color:var(--muted)}ul{padding-left:20px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.tag{font-size:12px;color:#ccefff;background:#10283b;border:1px solid #31536c;border-radius:30px;padding:5px 10px}
 .contact a{display:inline-block;margin:5px;padding:10px 13px;border:1px solid var(--line);border-radius:9px;color:var(--muted);text-decoration:none}.note,footer{color:#91a2b8;font-size:13px}footer{border-top:1px solid var(--line);padding:25px 0}
 @media(max-width:650px){.grid{grid-template-columns:1fr}.links{gap:10px;font-size:12px}.hero{padding:70px 0}.lead{font-size:16px}.links a:nth-child(2){display:none}}
+@media(max-width:650px){
+  .hero-layout{
+    grid-template-columns:1fr;
+    gap:30px;
+  }
+  .hero-photo{
+    justify-self:center;
+    width:70%;
+  }
+}
 </style></head><body>
 <nav><div class="wrap nav"><div class="brand">RAMESH<span>.</span></div><div class="links"><a href="#about">About</a><a href="#focus">Focus</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></div></nav>
 <header class="hero">
